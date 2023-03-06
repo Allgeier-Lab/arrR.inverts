@@ -1,0 +1,44 @@
+Package: arrR.inverts
+Type: Package
+Title: Invertebrate Dynamics of the arrR simulation model
+Version: 1.5.1
+Authors@R: c(person("Maximilian H.K.", "Hesselbarth",
+             role = c("aut", "cre"),
+             email = "mhk.hesselbarth@gmail.com",
+             comment = c(ORCID = "0000-0003-1125-9918")), 
+             person("Katrina S.", "Munsterman", 
+             role = "aut", 
+             email = "kmunster@umich.edu", 
+             comment = c(ORCID = "0000-0002-9303-2049")),
+             person("Jacob E.", "Allgeier", 
+             role = "rth", 
+             email = "jeallg@umich.edu", 
+             comment = c(ORCID = "0000-0002-9005-6432")))
+Maintainer: Katrina Sky Munsterman <kmunster@umich.edu>
+Description: The goal of arrR is to simulate seagrass growth around artificial reefs.
+arrR.inverts provides all subprocesses related to invetebrate prey in the arrR simulation model
+URL: https://allgeier-lab.github.io/arrR.inverts/
+BugReports: https://github.com/Allgeier-Lab/arrR/issues
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+VignetteBuilder: knitr
+Depends: R (>= 3.1)
+Imports:
+    cowplot,
+    ggplot2,
+    Rcpp,
+    rlang, 
+    stats,
+    utils
+Suggests: 
+    dplyr,
+    testthat,
+    kableExtra,
+    knitr,
+    rmarkdown,
+    covr
+LinkingTo: 
+    Rcpp,
+    RcppProgress
